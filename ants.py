@@ -459,10 +459,17 @@ class FireAnt(Ant):
     name = 'Fire'
     damage = 3
     "*** YOUR CODE HERE ***"
-    implemented = False
+    food_cost = 4
+    armor = 1
+    implemented = True
 
     def reduce_armor(self, amount):
         "*** YOUR CODE HERE ***"
+        if amount >= self.armor:
+            for bee in self.place.bees[:]:
+                bee.reduce_armor(self.damage)
+        
+        Ant.reduce_armor(self, amount)
 
 
 class LongThrower(ThrowerAnt):
