@@ -566,7 +566,7 @@ class HungryAnt(Ant):
         if self.digesting:
             self.digesting -= 1
         else:
-            bee = random_or_none(self.place.bee)
+            bee = random_or_none(self.place.bees)
             if bee:
                 self.eat_bee(bee)
 
