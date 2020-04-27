@@ -44,8 +44,15 @@ class Place:
         if insect.is_ant():
             # Phase 2: Special handling for BodyguardAnt
             "*** YOUR CODE HERE ***"
-            assert self.ant is None, 'Two ants in {0}'.format(self)
-            self.ant = insect
+            new_ant = insect
+            if self.ant and self.ant.can_contain(new_ant):
+                self.ant.contain_ant(new_ant)
+            elif self.ant and new_ant.can_contain(self.ant):
+                new_ant.contain_ant(self.ant)
+                self.ant = new_ant
+            else:
+                assert self.ant is None, 'Two ants in {0}'.format(self)
+                self.ant = new_ant
         else:
             self.bees.append(insect)
         insect.place = self
@@ -57,7 +64,10 @@ class Place:
         else:
             assert self.ant == insect, '{0} is not in {1}'.format(insect, self)
             "*** YOUR CODE HERE ***"
-            self.ant = None
+            if self.ant.container:
+                self.ant = self.ant.ant if self.ant.ant else None
+            else:
+                self.ant = None
 
         insect.place = None
 
@@ -144,6 +154,7 @@ class Ant(Insect):
     damage = 0
     food_cost = 0
     blocks_path = True
+    container = False
 
     def __init__(self, armor=1):
         """Create an Ant with an armor quantity."""
@@ -151,6 +162,9 @@ class Ant(Insect):
 
     def is_ant(self):
         return True
+    
+    def can_contain(self, ant):
+        return self.container and not self.ant and not ant.container
 
 
 class HarvesterAnt(Ant):
@@ -574,7 +588,9 @@ class BodyguardAnt(Ant):
     """BodyguardAnt provides protection to other Ants."""
     name = 'Bodyguard'
     "*** YOUR CODE HERE ***"
-    implemented = False
+    container = True
+    food_cost = 4
+    implemented = True
 
     def __init__(self):
         Ant.__init__(self, 2)
@@ -582,9 +598,11 @@ class BodyguardAnt(Ant):
 
     def contain_ant(self, ant):
         "*** YOUR CODE HERE ***"
+        self.ant = ant
 
     def action(self, colony):
         "*** YOUR CODE HERE ***"
+        self.ant.action(colony)
 
 class QueenPlace:
     """A place that represents both places in which the bees find the queen.
