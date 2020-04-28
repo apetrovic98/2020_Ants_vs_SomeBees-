@@ -612,17 +612,22 @@ class QueenPlace:
     """
     def __init__(self, colony_queen, ant_queen):
         "*** YOUR CODE HERE ***"
+        self._colony_queen = colony_queen
+        self._ant_queen = ant_queen
 
     @property
     def bees(self):
         "*** YOUR CODE HERE ***"
+        return self._colony_queen.bees + self._ant_queen.bees
 
 class QueenAnt(ScubaThrower):
     """The Queen of the colony.  The game is over if a bee enters her place."""
 
     name = 'Queen'
     "*** YOUR CODE HERE ***"
-    implemented = False
+    implemented = True
+    food_cost = 6
+    true_queen = False
 
     def __init__(self):
         ScubaThrower.__init__(self, 1)
@@ -632,6 +637,9 @@ class QueenAnt(ScubaThrower):
         """A queen ant throws a leaf, but also doubles the damage of ants
         in her tunnel.  Impostor queens do only one thing: die."""
         "*** YOUR CODE HERE ***"
+        colony.queen = QueenPlace(colony.queen, self.place) 
+
+        
 
 class AntRemover(Ant):
     """Allows the player to remove ants from the board in the GUI."""
