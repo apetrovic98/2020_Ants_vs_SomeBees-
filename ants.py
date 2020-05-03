@@ -628,16 +628,24 @@ class QueenAnt(ScubaThrower):
     implemented = True
     food_cost = 6
     true_queen = False
+    queen_number = 0
 
     def __init__(self):
         ScubaThrower.__init__(self, 1)
         "*** YOUR CODE HERE ***"
+        if QueenAnt.queen_number == 0:
+            self.true_queen = True
+            QueenAnt.queen_number = 1
 
     def action(self, colony):
         """A queen ant throws a leaf, but also doubles the damage of ants
         in her tunnel.  Impostor queens do only one thing: die."""
         "*** YOUR CODE HERE ***"
         colony.queen = QueenPlace(colony.queen, self.place) 
+        
+        if not self.true_queen:
+            self.reduce_armor(self.armor)
+            return 
 
         
 
