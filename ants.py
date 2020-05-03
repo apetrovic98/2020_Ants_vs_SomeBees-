@@ -66,6 +66,8 @@ class Place:
             "*** YOUR CODE HERE ***"
             if self.ant.container:
                 self.ant = self.ant.ant if self.ant.ant else None
+            elif isinstance(self.ant, QueenAnt) and self.ant.true_queen:
+                return
             else:
                 self.ant = None
 
@@ -636,6 +638,7 @@ class QueenAnt(ScubaThrower):
         if QueenAnt.queen_number == 0:
             self.true_queen = True
             QueenAnt.queen_number = 1
+            self.doubled = set()
 
     def action(self, colony):
         """A queen ant throws a leaf, but also doubles the damage of ants
@@ -646,7 +649,36 @@ class QueenAnt(ScubaThrower):
         if not self.true_queen:
             self.reduce_armor(self.armor)
             return 
+        
+        ants = self.same_tunnel_ants()
+        for ant in ants.difference(self.doubled):
+            ant.damage *= 2
+        self.doubled = self.doubled.union(ants)
+        
+        ScubaThrower.action(self, colony)
 
+    def same_tunnel_ants(self):
+        ants = set()
+        if self.place.ant is not self:
+            ants.add(self.place.ant)
+            
+        curplace = self.place.entrance
+        while curplace is not None:
+            if curplace.ant:
+                if curplace.ant.container and curplace.ant.ant:
+                    ants.add(curplace.ant.ant)
+                ants.add(curplace.ant)
+            curplace = curplace.entrance
+            
+        curplace = self.place.exit
+        while curplace is not None:
+            if curplace.ant:
+                if curplace.ant.container and curplace.ant.ant:
+                    ants.add(curplace.ant.ant)
+                ants.add(curplace.ant)
+            curplace = curplace.exit
+            
+        return ants
         
 
 class AntRemover(Ant):
