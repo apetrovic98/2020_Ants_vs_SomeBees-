@@ -44,20 +44,25 @@ Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima.
                  *troši hrane:* 5
                  *sposobnost:* Vodootporni ThrowerAnt, tj ThrowerAnt koji može da bude postavljen na polje prekriveno vodom.
                     
-* HungryAnt        troši hrane: 4
-                    sposobnost: Ovaj mrav ima mogućnost da pojede pčelu koja se nađe na istom polju kao i on. On tek posle 3 poteza (od onesposobljavanja prethodne) može da pojede sledeću pčelu.
+* **HungryAnt**        
+                 *troši hrane:* 4
+                 *sposobnost:* Ovaj mrav ima mogućnost da pojede pčelu koja se nađe na istom polju kao i on. On tek posle 3 poteza (od onesposobljavanja prethodne) može da pojede sledeću pčelu.
 
-* BodyguardAnt     troši hrane: 4
-                    sposobnost: Ovaj mrav štiti druge mrave, tako što prvo pčele napadaju njega pa tek kada on biva onesposobljen pčela napada drugog mrava sa kojim on deli polje. On je jedini koji može da deli polje sa drugim mravom.
+* **BodyguardAnt**     
+                  *troši hrane:* 4
+                  *sposobnost:* Ovaj mrav štiti druge mrave, tako što prvo pčele napadaju njega pa tek kada on biva onesposobljen pčela napada drugog mrava sa kojim on deli polje. On je jedini koji može da deli polje sa drugim mravom.
                     
-* QueenAnt        troši hrane: 6
-                    sposobnost: Kraljica kolonije, vodootporni ScubaThrower. Kada kraljica baci list ona udvostruči štetu svih mrava koji se nalaze u istom tunelu kao i ona. Takođe ako se desi da se pčela nađe u polju gde je kraljica, to je kraj igre, pčele pobeđuju. Ako se u igri postavi više mrava koji su ove vrste, ovai kasnije postavljeni će biti uništeni nakon prvog bacanja lišća. 
+* **QueenAnt**        
+                  *troši hrane:* 6
+                  *sposobnost:* Kraljica kolonije, vodootporni ScubaThrower. Kada kraljica baci list ona udvostruči štetu svih mrava koji se nalaze u istom tunelu kao i ona. Takođe ako se desi da se pčela nađe u polju gde je kraljica, to je kraj igre, pčele pobeđuju. Ako se u igri postavi više mrava koji su ove vrste, ovai kasnije postavljeni će biti uništeni nakon prvog bacanja lišća. 
 
-* SlowThrower     troši hrane: 4
-                    sposobnost: ThrowerAnt koji pogotkom usporava kretanje pčela.
+* **SlowThrower**     
+                  *troši hrane:* 4
+                  *sposobnost:* ThrowerAnt koji pogotkom usporava kretanje pčela.
  
-* StunThrower     troši hrane: 6
-                    sposobnost: ThrowerAnt koji pogotkom omamljuje pčele.
+* **StunThrower**     
+                  *troši hrane:*  6
+                  *sposobnost:* ThrowerAnt koji pogotkom omamljuje pčele.
                     
 
 ### Planirani jezik: 
@@ -92,3 +97,7 @@ Linux/Windows
 
 
 ### Autori:
+
+Lana Šoškić
+Filip Miljojković
+Anka Stanković
