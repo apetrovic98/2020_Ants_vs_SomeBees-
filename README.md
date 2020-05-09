@@ -9,17 +9,17 @@
 
 Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima. Za svakog mrava je specifična količina hrane koju troši pri postavljanju. Kod većine mrava je slučaj da bivaju savladani nakon prvog ujeda pčele.  
 
--**HarvesterAnt**   troši hrane : 2\\
-                    sposobnost: U svakom potezu skupljaju dodatnu hranu za koloniju.
+*HarvesterAnt  troši hrane : 2\\
+               sposobnost: U svakom potezu skupljaju dodatnu hranu za koloniju.
                     
--**ThrowerAnt**     troši hrane: 4
-                    sposobnost: U svakom potezu gađa lišćem najbližu pčelu.
+*ThrowerAnt    troši hrane: 4
+               sposobnost: U svakom potezu gađa lišćem najbližu pčelu.
                     
--**FireAnt**         troši hrane: 4
-                    sposobnost: Kada biva uništen, sprži sve pčele koje su na istom polju kao i on.
+*FireAnt       troši hrane: 4
+               sposobnost: Kada biva uništen, sprži sve pčele koje su na istom polju kao i on.
                     
--**ShortThrower**    troši hrane: 3
-                    sposobnost: ThrowerAnt koji baca lišće samo na pčele koje su udaljene najviše 3 polja.
+*ShortThrower  troši hrane: 3
+               sposobnost: ThrowerAnt koji baca lišće samo na pčele koje su udaljene najviše 3 polja.
                     
 -**LongThrower**     troši hrane: 3
                     sposobnost: ThrowerAnt koji baca lišće samo na pčele koje su udaljene najmnaje 4 polja.
