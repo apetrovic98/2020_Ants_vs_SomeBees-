@@ -46,6 +46,7 @@ Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima.
                     
 * **HungryAnt**        
                  *troši hrane:* 4
+                 
                  *sposobnost:* Ovaj mrav ima mogućnost da pojede pčelu koja se nađe na istom polju kao i on. On tek posle 3 poteza (od onesposobljavanja prethodne) može da pojede sledeću pčelu.
 
 * **BodyguardAnt**     
