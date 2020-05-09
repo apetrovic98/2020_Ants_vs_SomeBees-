@@ -13,66 +13,66 @@ Kao što je napomenuto, Ant vs SomeBees je tower defense igra, ili jednostavnije
 Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima. Za svakog mrava je specifična količina hrane koju troši pri postavljanju. Kod većine mrava je slučaj da bivaju savladani nakon prvog ujeda pčele.  
 
 * **HarvesterAnt**  
-                *troši hrane* : 2 
-                *sposobnost:* U svakom potezu skupljaju dodatnu hranu za koloniju.
+                *troši hrane* : 2   
+                *sposobnost:* U svakom potezu skupljaju dodatnu hranu za koloniju.  
+                      
+* **ThrowerAnt**    
+               *troši hrane:* 4   
+               *sposobnost:* U svakom potezu gađa lišćem najbližu pčelu.  
                     
-* **ThrowerAnt**  
-               *troši hrane:* 4 
-               *sposobnost:* U svakom potezu gađa lišćem najbližu pčelu.
+* **FireAnt**         
+               *troši hrane:* 4   
+               *sposobnost:* Kada biva uništen, sprži sve pčele koje su na istom polju kao i on.  
                     
-* **FireAnt**       
-               *troši hrane:* 4 
-               *sposobnost:* Kada biva uništen, sprži sve pčele koje su na istom polju kao i on.
+* **ShortThrower**    
+              *troši hrane:* 3   
+              *sposobnost:* ThrowerAnt koji baca lišće samo na pčele koje su udaljene najviše 3 polja.  
                     
-* **ShortThrower**  
-              *troši hrane:* 3 
-              *sposobnost:* ThrowerAnt koji baca lišće samo na pčele koje su udaljene najviše 3 polja.
-                    
-* **LongThrower**   
-               *troši hrane:* 3 
-               *sposobnost:* ThrowerAnt koji baca lišće samo na pčele koje su udaljene najmnaje 4 polja.
+* **LongThrower**     
+               *troši hrane:* 3   
+               *sposobnost:* ThrowerAnt koji baca lišće samo na pčele koje su udaljene najmnaje 4 polja.  
                     
 * **WallAnt**         
-                *troši hrane:* 4
-                *sposobnost:* Za razliku od ostalih, ovaj mrav može da izdrži 3 napada pčela.
+                *troši hrane:* 4  
+                *sposobnost:* Za razliku od ostalih, ovaj mrav može da izdrži 3 napada pčela.   
                     
 * **NinjaAnt**     
-                *troši hrane:* 6
-                *sposobnost:* Ovaj mrav ne blokira put pčelama, one prolaze bez da ga ubodu, ali on svakoj pčeli koja bude na istom mestu gde i on nanese jedan udarac i time ošteti njihov oklop.  
+                *troši hrane:* 6  
+                *sposobnost:* Ovaj mrav ne blokira put pčelama, one prolaze bez da ga ubodu, ali on svakoj pčeli koja bude na istom mestu gde i on nanese jedan udarac i time ošteti njihov oklop.    
                     
 * **ScubaThrower**
-                 *troši hrane:* 5 
-                 *sposobnost:* Vodootporni ThrowerAnt, tj ThrowerAnt koji može da bude postavljen na polje prekriveno vodom.
+                 *troši hrane:* 5   
+                 *sposobnost:* Vodootporni ThrowerAnt, tj ThrowerAnt koji može da bude postavljen na polje prekriveno vodom.  
                     
 * **HungryAnt**        
-                 *troši hrane:* 4
-                 *sposobnost:* Ovaj mrav ima mogućnost da pojede pčelu koja se nađe na istom polju kao i on. On tek posle 3 poteza (od onesposobljavanja prethodne) može da pojede sledeću pčelu.
+                 *troši hrane:* 4  
+                 *sposobnost:* Ovaj mrav ima mogućnost da pojede pčelu koja se nađe na istom polju kao i on. On tek posle 3 poteza (od onesposobljavanja prethodne) može da pojede sledeću pčelu.  
 
-* **BodyguardAnt**     
-                  *troši hrane:* 4
-                  *sposobnost:* Ovaj mrav štiti druge mrave, tako što prvo pčele napadaju njega pa tek kada on biva onesposobljen pčela napada drugog mrava sa kojim on deli polje. On je jedini koji može da deli polje sa drugim mravom.
+* **BodyguardAnt**       
+                  *troši hrane:* 4  
+                  *sposobnost:* Ovaj mrav štiti druge mrave, tako što prvo pčele napadaju njega pa tek kada on biva onesposobljen pčela napada drugog mrava sa kojim on deli polje. On je jedini koji može da deli polje sa drugim mravom.  
                     
 * **QueenAnt**        
-                  *troši hrane:* 6
-                  *sposobnost:* Kraljica kolonije, vodootporni ScubaThrower. Kada kraljica baci list ona udvostruči štetu svih mrava koji se nalaze u istom tunelu kao i ona. Takođe ako se desi da se pčela nađe u polju gde je kraljica, to je kraj igre, pčele pobeđuju. Ako se u igri postavi više mrava koji su ove vrste, ovai kasnije postavljeni će biti uništeni nakon prvog bacanja lišća. 
+                  *troši hrane:* 6  
+                  *sposobnost:* Kraljica kolonije, vodootporni ScubaThrower. Kada kraljica baci list ona udvostruči štetu svih mrava koji se nalaze u istom tunelu kao i ona. Takođe ako se desi da se pčela nađe u polju gde je kraljica, to je kraj igre, pčele pobeđuju. Ako se u igri postavi više mrava koji su ove vrste, ovai kasnije postavljeni će biti uništeni nakon prvog bacanja lišća.   
 
 * **SlowThrower**     
-                  *troši hrane:* 4
-                  *sposobnost:* ThrowerAnt koji pogotkom usporava kretanje pčela.
+                  *troši hrane:* 4  
+                  *sposobnost:* ThrowerAnt koji pogotkom usporava kretanje pčela.  
  
 * **StunThrower**     
-                  *troši hrane:*  6
-                  *sposobnost:* ThrowerAnt koji pogotkom omamljuje pčele.
+                  *troši hrane:*  6  
+                  *sposobnost:* ThrowerAnt koji pogotkom omamljuje pčele.  
                     
 
 ### Planirani jezik: 
-Za pisanje igre koršćen je programski jezik Python. 
-Projekat predstavlja kombinaciju funkcionalne i objektno orijentisane programske paradigme. 
+Za pisanje igre koršćen je programski jezik Python.   
+Projekat predstavlja kombinaciju funkcionalne i objektno orijentisane programske paradigme.   
 
 ### Pokretanje
 
-Igra se može pokrenuti u dva režima: u tekstualnom ili uz korišćenje grafičkog interfejsa. 
-Komande za pokretanje tekstualne verzije :
+Igra se može pokrenuti u dva režima: u tekstualnom ili uz korišćenje grafičkog interfejsa.  
+Komande za pokretanje tekstualne verzije :  
 
 python3 ants.py
 
@@ -92,12 +92,12 @@ Igra ima nekoliko dodatnih opcija koje se mogu koristiti. Pregled opcija se mož
     -i, --insane    Loads a difficult assault plan
 
 
-### Operativni sistem:
+### Operativni sistem:  
 Linux/Windows
 
 
 ### Autori:
 
-Lana Šoškić
-Filip Miljojković
-Anka Stanković
+Lana Šoškić  
+Filip Miljojković  
+Anka Stanković  
