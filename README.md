@@ -41,7 +41,7 @@ Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima.
                 *sposobnost:* Ovaj mrav ne blokira put pčelama, one prolaze bez da ga ubodu, ali on svakoj pčeli koja bude na istom mestu gde i on nanese jedan udarac i time ošteti njihov oklop.  
                     
 * **ScubaThrower**
-                 *troši hrane:*5 
+                 *troši hrane:* 5 
                  *sposobnost:* Vodootporni ThrowerAnt, tj ThrowerAnt koji može da bude postavljen na polje prekriveno vodom.
                     
 * **HungryAnt**        
