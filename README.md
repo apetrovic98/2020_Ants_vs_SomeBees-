@@ -12,7 +12,7 @@ Kao što je napomenuto, Ant vs SomeBees je tower defense igra, ili jednostavnije
 
 Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima. Za svakog mrava je specifična količina hrane koju troši pri postavljanju. Kod većine mrava je slučaj da bivaju savladani nakon prvog ujeda pčele.  
 
-* **HarvesterAnt**  \ *troši hrane* : 2 \ *sposobnost:* U svakom potezu skupljaju dodatnu hranu za koloniju.
+* **HarvesterAnt**  \n *troši hrane* : 2 \n *sposobnost:* U svakom potezu skupljaju dodatnu hranu za koloniju.
                     
 * **ThrowerAnt**    \ *troši hrane:* 4 \ *sposobnost:* U svakom potezu gađa lišćem najbližu pčelu.
                     
