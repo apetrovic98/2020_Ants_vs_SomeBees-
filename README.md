@@ -4,13 +4,14 @@
 
 ### Kratak opis teme
 
-U ovom projektu zadatak je napraviti tower defense igru. Igra je inspirisana PopCap-ovom popularnom igrom Plants Vs. Zombies. Igrač treba da odabere mrave kojima će naseliti koloniju. Mravi treba da žaštite svoju kraljicu od zlih pčela koje napadaju njihovu teritoriju. Igrač je pobednik ako uspešno eliminiše sve pčele sa polja. 
+  U ovom projektu zadatak je napraviti tower defense igru. Igra je inspirisana PopCap-ovom popularnom igrom Plants Vs. Zombies. Igrač treba da odabere mrave kojima će naseliti koloniju. Mravi treba da zaštite svoju kraljicu od zlih pčela koje napadaju njihovu teritoriju. Igrač je pobednik ako uspešno eliminiše sve pčele sa polja. 
 
 ### Uputstva za igru:
 
-Kao što je napomenuto, Ant vs SomeBees je tower defense igra, ili jednostavnije igra invazije. Igra se sastoji od niza poteza. Igraču je na raspolaganju kolonija koja se sastoji od više uzastopnih mesta koja služe za pozicioniranje mrava i kretanje pčela. Kolonija može biti sastavljena od 1 ili 3 tunela, u žavisnosti od opcije pokretanja. U svakom potezu nova pčela može ući u mravlju koloniju ili napredovati kroz nju (prelaskom iz polja u polje), i novi mrav može (ali ne mora) biti postavljen. Postavljanje mrava je moguće ako je u koloniji dovoljno hrane na raspolaganju (svaka vrsta mrava zahteva trošenje specifične količine hrane iz kolonije kako bi bio postavljen) i ako je na raspolaganju mesto na koje će mrav biti pozicioniran. Takođe, u okviru poteza insekti izvode i svoje karakteristične akcije: mravi u zavisnosti od vrste prave hranu ili napadaju, a pčele svojim bodjama ubadaju mrave. Pčela ima oklop koji ih štiti od udara lišćem, međutim on nije neuništiv i čuva pčele samo od 3 napada. Pčela je vodootporna, tj može da preleti polje koje je prekriveno vodom. Kraj igre je kada igrač uspe da onesposobi sve pčele, i tako sačuva svoju koloniju i žasluži pobedu u igri, ili pak ako pčela stigne do poslednjeg polja u koloniji i izvrši invaziju.
-
-Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima. Za svakog mrava je specifična količina hrane koju troši pri postavljanju. Kod većine mrava je slučaj da bivaju savladani nakon prvog ujeda pčele.  
+  Kao što je napomenuto, Ant vs SomeBees je tower defense igra, ili jednostavnije igra invazije.   
+  Igra se sastoji od niza poteza. Igraču je na raspolaganju kolonija koja se sastoji od više uzastopnih mesta koja služe za pozicioniranje mrava i kretanje pčela. Koloniju čine 1 ili 3 tunela, u zavisnosti od opcije pokretanja. U svakom potezu nova pčela može ući u mravlju koloniju ili napredovati kroz nju (prelaskom iz polja u polje), i novi mrav može (ali ne mora) biti postavljen. Postavljanje mrava je moguće ako je u koloniji dovoljno hrane na raspolaganju (svaka vrsta mrava zahteva trošenje specifične količine hrane iz kolonije kako bi bio postavljen) i ako je na raspolaganju slobodno mesto na koje će mrav biti pozicioniran. Takođe, u okviru poteza insekti izvode i svoje karakteristične akcije: mravi u zavisnosti od vrste prave hranu ili napadaju, a pčele svojim žaokama ubadaju mrave. Pčela ima oklop koji ih štiti od udara lišćem, međutim on nije neuništiv i čuva pčele samo od 3 napada. Pčela je vodootporna, tj može da preleti polje koje je prekriveno vodom. Kraj igre je kada igrač uspe da onesposobi sve pčele, i tako sačuva svoju koloniju i zasluži pobedu u igri, ili pak ako pčela stigne do kraljice ili poslednjeg polja u koloniji i izvrši invaziju.  
+    
+  Igraču su na raspolaganju različite vrste mrava sa različitim sposobnostima. Za svakog mrava je specifična količina hrane koju troši pri postavljanju. Kod većine mrava je slučaj da bivaju savladani nakon prvog ujeda pčele.  
 
 * **HarvesterAnt**  
                 *troši hrane* : 2   
@@ -26,11 +27,11 @@ Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima.
                     
 * **ShortThrower**    
               *troši hrane:* 3   
-              *sposobnost:* ThrowerAnt koji baca lišće samo na pčele koje su udaljene najviše 3 polja.  
+              *sposobnost:* ThrowerAnt koji baca lišće na pčele koje su udaljene najviše 3 polja.  
                     
 * **LongThrower**     
                *troši hrane:* 3   
-               *sposobnost:* ThrowerAnt koji baca lišće samo na pčele koje su udaljene najmnaje 4 polja.  
+               *sposobnost:* ThrowerAnt koji baca lišće na pčele koje su udaljene najmnaje 4 polja.  
                     
 * **WallAnt**         
                 *troši hrane:* 4  
@@ -38,7 +39,7 @@ Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima.
                     
 * **NinjaAnt**     
                 *troši hrane:* 6  
-                *sposobnost:* Ovaj mrav ne blokira put pčelama, one prolaze bez da ga ubodu, ali on svakoj pčeli koja bude na istom mestu gde i on nanese jedan udarac i time ošteti njihov oklop.    
+                *sposobnost:* Ovaj mrav ne blokira put pčelama, one prolaze pored njega bez da ga ubodu, ali on svakoj pčeli koja ga prođe nanese jedan udarac i time ošteti njihov oklop.    
                     
 * **ScubaThrower**
                  *troši hrane:* 5   
@@ -66,8 +67,8 @@ Igraču su na raspolaganju različite vrste mrava sa ražličitim sposobnostima.
                     
 
 ### Planirani jezik: 
-Za pisanje igre koršćen je programski jezik Python.   
-Projekat predstavlja kombinaciju funkcionalne i objektno orijentisane programske paradigme.   
+  Za pisanje igre koršćen je programski jezik Python.   
+  Projekat predstavlja kombinaciju funkcionalne i objektno orijentisane programske paradigme.   
 
 ### Pokretanje
 
