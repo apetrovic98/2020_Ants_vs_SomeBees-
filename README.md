@@ -67,7 +67,7 @@
                     
 
 ### Planirani jezik: 
-  Za pisanje igre koršćen je programski jezik Python.   
+  Za pisanje igre koršćen je programski jezik Python3.   
   Projekat predstavlja kombinaciju funkcionalne i objektno orijentisane programske paradigme.   
 
 ### Pokretanje
@@ -75,11 +75,13 @@
 Igra se može pokrenuti u dva režima: u tekstualnom ili uz korišćenje grafičkog interfejsa.  
 Komande za pokretanje tekstualne verzije :  
 
-python3 ants.py
+python3 ants.py (Linux)
+py ants.py (Windows)
 
 Komande za pokretanje grafičke verzije :
 
-python3 ants_gui.py
+python3 ants_gui.py (Linux)
+py ants_gui.py (Windows)
 
 Igra ima nekoliko dodatnih opcija koje se mogu koristiti. Pregled opcija se može dobiti opcijom --help pri pokretanju.
 
@@ -94,11 +96,12 @@ Igra ima nekoliko dodatnih opcija koje se mogu koristiti. Pregled opcija se mož
 
 
 ### Operativni sistem:  
-Linux/Windows
+Igra se moze pokrenuti i na Linux i na Windows operativnom sistemu.
+Izvrsna verzija u projektu je napravljena za Windows operativni sistem, koriscenjem grafickog interfejsa. 
 
 
 ### Autori:
 
-Lana Šoškić  
+Lana Šoškić  soskiclana16@gmail.com
 Filip Miljojković  
-Anka Stanković  
+Anka Stanković  ankastankovic98@gmail.com
