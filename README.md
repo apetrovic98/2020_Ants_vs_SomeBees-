@@ -102,6 +102,6 @@ Izvrsna verzija u projektu je napravljena za Windows operativni sistem, koriscen
 
 ### Autori:
 
+Anka Stanković  ankastankovic98@gmail.com  
 Lana Šoškić  soskiclana16@gmail.com  
-Filip Miljojković  miljojkovicfilip@gmail.com
-Anka Stanković  ankastankovic98@gmail.com
+Filip Miljojković  miljojkovicfilip@gmail.com  
