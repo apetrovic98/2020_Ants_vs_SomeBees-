@@ -80,7 +80,7 @@ py ants.py (Windows)
 
 Komande za pokretanje grafičke verzije :
 
-python3 ants_gui.py (Linux)
+python3 ants_gui.py (Linux)  
 py ants_gui.py (Windows)
 
 Igra ima nekoliko dodatnih opcija koje se mogu koristiti. Pregled opcija se može dobiti opcijom --help pri pokretanju.
