@@ -97,7 +97,7 @@ Igra ima nekoliko dodatnih opcija koje se mogu koristiti. Pregled opcija se mož
 
 ### Operativni sistem:  
 Igra se moze pokrenuti i na Linux i na Windows operativnom sistemu.
-Dostupan je izvršni fajl (.exe). Za pokretanje osnovnog moda igrice dovoljan je dupli klik na izvršni fajl, a ukoliko želite da isprobate sve dodatne opcije izvršni fajl treba pokrenuti iz terminala/command prompt uz gore pomenute opcije (-t, -f...).  
+Dostupan je izvršni fajl (.exe) za Windows. Za pokretanje osnovnog moda igrice dovoljan je dupli klik na izvršni fajl, a ukoliko želite da isprobate sve dodatne opcije izvršni fajl treba pokrenuti iz command prompt uz gore pomenute opcije (-t, -f...).  
 
 
 ### Autori:
