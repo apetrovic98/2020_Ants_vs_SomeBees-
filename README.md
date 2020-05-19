@@ -72,11 +72,11 @@
 
 ### Pokretanje
 
-Igra se može pokrenuti u dva režima: u tekstualnom ili uz korišćenje grafičkog interfejsa.  
+Igra se može pokrenuti pomocu python interpretera na dva načina: u tekstualnom ili uz korišćenje grafičkog interfejsa.  
 Komande za pokretanje tekstualne verzije :  
 
-python3 ants.py (Linux)
-py ants.py (Windows)
+python3 ants.py (Linux)  
+py ants.py (Windows)  
 
 Komande za pokretanje grafičke verzije :
 
@@ -97,11 +97,11 @@ Igra ima nekoliko dodatnih opcija koje se mogu koristiti. Pregled opcija se mož
 
 ### Operativni sistem:  
 Igra se moze pokrenuti i na Linux i na Windows operativnom sistemu.
-Izvrsna verzija u projektu je napravljena za Windows operativni sistem, koriscenjem grafickog interfejsa. 
+Dostupan je izvršni fajl (.exe). Za pokretanje osnovnog moda igrice dovoljan je dupli klik na izvršni fajl, a ukoliko želite da isprobate sve dodatne opcije izvršni fajl treba pokrenuti iz terminala/command prompt uz gore pomenute opcije (-t, -f...).  
 
 
 ### Autori:
 
-Anka Stanković  ankastankovic98@gmail.com  
-Lana Šoškić  soskiclana16@gmail.com  
-Filip Miljojković  miljojkovicfilip@gmail.com  
+Anka Stanković ankastankovic98@gmail.com    
+Lana Šoškić soskiclana16@gmail.com      
+Filip Miljojković miljojkovicfilip@gmail.com  
